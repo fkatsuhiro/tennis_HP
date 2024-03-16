@@ -1,0 +1,150 @@
+<!--Q&Aの画面に関しての実装-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/qa.css">
+</head>
+<body>
+    <!--pc版のヘッダー-->
+    <div class="pc-nav">
+        <!-- ヘッダーのコード -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light hline width-100"
+            style="position: fixed; z-index:100;">
+            <div class="container">
+                <!-- ロゴ -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/top-page/logo.png" alt="Your Logo" width="100" height="50">
+                </a>
+                <!-- ロゴ横のテキスト -->
+                <span class="logo-font">
+                    千葉大学硬式庭球部
+                </span>
+                <!-- 右側のリンク -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">ホーム</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="intro.html">部員紹介</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="info.html">お知らせ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="access.html">お問い合わせ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ヘッダー終わり -->
+    </div>
+    <!--mobile版のヘッダーコード-->
+    <div class="mobile-nav">
+        <!-- ヘッダーのコード -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light hline width-100"
+            style="position: fixed; z-index:100;">
+            <div class="container">
+                <!-- ロゴ -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/top-page/logo.png" alt="Your Logo" width="60" height="30">
+                </a>
+                <!-- ロゴ横のテキスト -->
+                <span class="logo-font">
+                    千葉大学硬式庭球部
+                </span>
+                <!-- 右側のリンク -->
+                <div id="navbarNav">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">menu</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="index.html">ホーム</a>
+                                <a class="dropdown-item" href="intro.html">部員紹介</a>
+                                <a class="dropdown-item" href="info.html">お知らせ</a>
+                                <a class="dropdown-item" href="access.html">お問い合わせ</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ヘッダー終わり -->
+    </div>
+    <!-- Q&A -->
+    <div style="width: 100%; margin:0 auto; background-color:#fff">
+    <div class="qa-contents header-space">
+        <div id="qa-title" style="padding: 1em 0;">Q&A</div>
+        <div class="row" style="padding-bottom: .5rem;">
+            <div class="col-2 title_jp" style="text-align: right; font-weight:bold">Q</div>
+            <div class="col-10">練習時間はどれくらいですか？</div>
+        </div>
+        <div class="row" style="padding-bottom: 2rem;">
+            <div class="col-2 title_jp" style="text-align: right; font-weight:bold">A</div>
+            <div class="col-10">平日は月・水・金の1日1時間半、土日どちらかの3時間で練習を行っています。</div>
+        </div>
+        <div class="row" style="padding-bottom: .5rem;">
+            <div class="col-2 title_jp" style="text-align: right; font-weight:bold">Q</div>
+            <div class="col-10">勉強やバイトと両立できますか？</div>
+        </div>
+        <div class="row" style="padding-bottom: 2rem;">
+            <div class="col-2 title_jp" style="text-align: right; font-weight:bold">A</div>
+            <div class="col-10">はい！実際にアルバイトをしている部員がほとんどです。また、学部の成績でも好成績を収めている部員もいます！</div>
+        </div>
+        <div class="row" style="padding-bottom: .5rem;">
+            <div class="col-2 title_jp" style="text-align: right; font-weight:bold">Q</div>
+            <div class="col-10">部費などはいくらくらいかかりますか？</div>
+        </div>
+        <div class="row" style="padding-bottom: 1em;">
+            <div class="col-2 title_jp" style="text-align: right; font-weight:bold">A</div>
+            <div class="col-10">OB・OGの方々の手厚い支援によって、月3000円を部費として徴収させていただいています！</div>
+        </div>
+        <div class="row" style="padding-bottom: .5rem;">
+            <div class="col-2 title_jp" style="text-align: right; font-weight:bold">Q</div>
+            <div class="col-10">サークルなどと掛け持ちできますか？</div>
+        </div>
+        <div class="row" style="padding-bottom: 1em;">
+            <div class="col-2 title_jp" style="text-align: right; font-weight:bold">A</div>
+            <div class="col-10">部活動の活動を優先していただく形にはなりますが、それ以外の時間でサークルに参加することは可能です！！</div>
+        </div>
+        <div class="row" style="padding-bottom: .5rem;">
+            <div class="col-2 title_jp" style="text-align: right; font-weight:bold">Q</div>
+            <div class="col-10">就職状況はどんな感じですか？</div>
+        </div>
+        <div class="row" style="padding-bottom: 1em;">
+            <div class="col-2 title_jp" style="text-align: right; font-weight:bold">A</div>
+            <div class="col-10">公務員就職や民間就職、大学院進学など様々な卒業後の進路を歩んでいく先輩がいます！就職活動の相談にどの先輩も親身に相談に乗ってくれますよ！！</div>
+        </div>
+        <div style="text-align:right">
+            <button type="button" class="btn btn-light" onclick="location.href='index.html'">back to page</button>
+        </div>
+        <div class="page-down"></div>
+    </div>
+    </div>
+    <!-- フッター開始 -->
+    <footer class="footer">
+        <!-- フッターリンク -->
+        <div><a href="index.html" style="color: #fff; cursor:pointer">ホーム</a></div>
+        <div><a href="intro.html" style="color:#fff; cursor:pointer">部員紹介</a></div>
+        <div><a href="#" style="color: #fff; cursor:pointer">お知らせ</a></div>
+        <div><a href="access.html" style="color: #fff; cursor:pointer">お問い合わせ</a></div>
+        <!-- 著作権情報 -->
+        <p>&copy; 千葉大学硬式庭球部</p>
+    </footer>
+    <!-- フッター終了 -->
+    </div>
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

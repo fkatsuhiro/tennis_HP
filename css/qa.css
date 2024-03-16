@@ -1,0 +1,28 @@
+#qa-title{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Century Gothic", sans-serif;
+    /*margin: 2em;*/
+    text-align: center;
+}
+.qa-contents{
+    /*margin: 2em;*/
+    width: 60%;
+    margin: 0 auto;
+}
+.col-2{
+    text-align: center;
+    /*padding: 1em;*/
+}
+.col-10{
+    text-align: left;
+    /*padding: 1em;*/
+}
+
+@media screen and (max-width:768px) {
+    .qa-contents{
+        /*margin: 2em;*/
+        width: 80%;
+        margin: 0 auto;
+    }
+}

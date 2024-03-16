@@ -1,0 +1,107 @@
+.intro{
+    background-color: #e6e6e6;
+}
+.intro-head{
+    width: 90%;
+    margin: 0 auto;
+    min-width: 350px;
+    /* margin-bottom: 3em; */
+
+}
+#intro-title{
+    font-size: 1.5em;
+    padding-top: 1em;
+    text-align: center;
+}
+.hr1{
+    border-top: 1px solid #000;
+}
+.grade{
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* 男子部・女子部切り替えボタンデザイン */
+.two-buttons{
+    text-align: right;
+}
+.tabbox input{
+    display: none;
+}
+.tab{
+    padding: .3rem;
+    margin-top: 1em;
+    margin-right: 1em;
+    border-radius: 10px;
+    transition: all .2s;
+    background-color:grey;
+    color: #ffffff;
+}
+/* ボタン動作 */
+.tabcontent{
+    display: none;
+    text-align: center;
+}
+#tab1:checked ~ #tabcontent1{ display: block; }
+#tab2:checked ~ #tabcontent2{ display: block; }
+
+
+
+/* プロフィールボックス */
+.profile{
+    width: 100%;
+    /* padding: 1%; */
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: #fff;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+}
+.text-zone{
+    width: 95%;
+    margin:0 auto;
+}
+.p-img{
+    width: 100%;
+    height: auto;
+    /* border-radius: 10%; */
+    text-align: center;
+}
+.p-name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem; 
+}
+.p-intro{
+    text-align: left;
+    font-size: .8rem;
+}
+
+.comment{
+    font-size: 1rem;
+    width:90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+@media screen and (max-width:768px) {
+    .p-intro{
+        font-size: 1.1rem;
+    }
+
+    .comment{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 1.1rem;
+    }
+    .p-name{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.3rem; 
+    }
+
+    .text-zone{
+        width: 85%;
+        margin:0 auto;
+    }
+}

@@ -1,0 +1,475 @@
+<!--トップページ作成html-->
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>千葉大学硬式庭球部 ホーム</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/ugokuweb.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--pc版のヘッダー-->
+  <div class="pc-nav">
+    <!-- ヘッダーのコード -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light hline width-100" style="position: fixed; z-index:100;">
+      <div class="container">
+
+        <!-- ロゴ -->
+        <a class="navbar-brand" href="index.html">
+          <img src="img/top-page/logo.png" alt="Your Logo" width="100" height="50">
+        </a>
+
+        <!-- ロゴ横のテキスト -->
+        <span class="logo-font">
+          千葉大学硬式庭球部
+        </span>
+
+        <!-- 右側のリンク -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">ホーム</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="intro.html">部員紹介</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">お知らせ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="access.html">お問い合わせ</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <!-- ヘッダー終わり -->
+
+  </div>
+
+
+
+  <!--mobile版のヘッダーコード-->
+  <div class="mobile-nav">
+    <!-- ヘッダーのコード -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light hline width-100" style="position: fixed; z-index:100;">
+      <div class="container">
+
+        <!-- ロゴ -->
+        <a class="navbar-brand" href="#">
+          <img src="img/top-page/logo.png" alt="Your Logo" width="60" height="30">
+        </a>
+
+        <!-- ロゴ横のテキスト -->
+        <span class="logo-font">
+          千葉大学硬式庭球部
+        </span>
+
+        <!-- 右側のリンク -->
+        <div class="" id="navbarNav">
+          <ul class="nav nav-tabs">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">menu</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="index.html">ホーム</a>
+                <a class="dropdown-item" href="intro.html">部員紹介</a>
+                <a class="dropdown-item" href="#">お知らせ</a>
+                <a class="dropdown-item" href="access.html">お問い合わせ</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <!-- ヘッダー終わり -->
+  </div>
+  <!--pc版のコード-->
+  <div class="pc-ver">
+    <!--画面の中身を作成-->
+    <!--トップ画像の挿入-->
+    <div class="width-100">
+      <img src="img/top-page/top.jpg" class="top-img">
+    </div>
+
+    <!--部員紹介の前までのコンテンツ-->
+    <div class="background">
+      <div class="width-80 item-margin">
+        <div class="row padding-top padding-bottom">
+          <div class="col-7">
+            <div class="font-large title" style="font-weight: bold; padding-bottom:0.5em">About us</div>
+            <div class="font-normal padding-bottom">
+              こんにちは。千葉大学硬式庭球部です！
+              普段私たちは関東学生テニスリーグ4部昇格、千葉県リーグ優勝を目指して練習に取り組んでいます。
+              きつい練習も仲の良い同期とともに乗り越え、日々成長をしています！勉学や部活と忙しい毎日を送っていますが、
+              毎日が充実しています。興味があればぜひテニス部に足を運んでください！！
+            </div>
+            <!--ボタン挿入-->
+            <button type="button" class="btn btn-light all-img" onclick="location.href='aboutus.html'">view more</button>
+            <div class="padding-bottom"></div>
+            <div class="padding-top padding-bottom row">
+              <div class="col-6">
+                <a href="#" style="cursor: pointer;">
+                  <img src="img/top-page/access2.jpg" class="all-img">
+                  <div class="intro_schedule">
+                    <div class="area-padding">
+                      <div class="area-title title_jp" style="color: black;">部員の日常・スケジュール</div>
+                      <div class="area-text" style="color: #d3d3d3;">ここでは、部員の普段の活動内容に関して発信していきます！</div>
+                      <div class="area-text" style="color: black;">*現在こちらのページはアクセスできません</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="access.html" style="cursor: pointer;">
+                  <img src="img/top-page/access.jpg" class="all-img">
+                  <div class="intro_schedule">
+                    <div class="area-padding">
+                      <div class="area-title title_jp" style="color: black;">お問い合わせ</div>
+                      <div class="area-text" style="color: #d3d3d3;">試合の申し込み、練習の参加、見学などはこちらからご連絡ください</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="item-center font-large title_jp"
+              style="font-weight: bold; padding-bottom:0.5em; padding-top:0.5em">アクセス
+            </div>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.832756569766!2d140.10119947578562!3d35.63184927260319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60228482298d0929%3A0xd19200becfde63f0!2z5Y2D6JGJ5aSn5a2m44OG44OL44K544Kz44O844OI!5e0!3m2!1sja!2sjp!4v1703310168535!5m2!1sja!2sjp"
+                style="border: 0; width: 100%; height:100%;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="padding-top padding-bottom"></div>
+            <div class="padding-top padding-bottom">
+              <div class="font-nomal bold title_jp">住所</div>
+              <div class="font-normal"> &#12306;263-0022</div>
+              <div class="font-normal">千葉県千葉市稲毛区穴川１丁目４−２１</div>
+              <div class="padding-top font-nomal bold title_jp">面数</div>
+              <div class="font-normal">オムニコート6面</div>
+              <div class="bold padding-top title_jp">所要時間</div>
+              <div class="font-normal">千葉大学南門から徒歩15分程度</div>
+            </div>
+            <!--下スペース用のタグ-->
+            <div class="padding-bottom"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--部員紹介のコンテンツ-->
+    <div class="intro_back">
+      <div class="font-large bold padding-top padding-bottom item-center intro_text title_jp">部員紹介</div>
+      <ul class="slider">
+        <li><img src="img/members-imges/中村.jpg" alt=""></li>
+        <li><img src="img/members-imges/今井.jpg" alt=""></li>
+        <li><img src="img/members-imges/原.jpg" alt=""></li>
+        <li><img src="img/members-imges/古川万智.jpg" alt=""></li>
+        <li><img src="img/members-imges/和光.jpg" alt=""></li>
+        <li><img src="img/members-imges/坂井真凜.jpg" alt=""></li>
+        <li><img src="img/members-imges/堀.jpg" alt=""></li>
+        <li><img src="img/members-imges/嶋田彩夏.jpg" alt=""></li>
+        <li><img src="img/members-imges/幕内.jpg" alt=""></li>
+        <li><img src="img/members-imges/津田.jpg" alt=""></li>
+        <li><img src="img/members-imges/廣瀬.jpg" alt=""></li>
+        <li><img src="img/members-imges/渡邉晴海.jpg" alt=""></li>
+        <li><img src="img/members-imges/猿渡.jpg" alt=""></li>
+        <li><img src="img/members-imges/福垣内.jpg" alt=""></li>
+        <li><img src="img/members-imges/脇坂.jpg" alt=""></li>
+        <li><img src="img/members-imges/菅谷.jpg" alt=""></li>
+        <li><img src="img/members-imges/関根.jpg" alt=""></li>
+      </ul>
+      <div class="padding-top padding-bottom item-center">
+        <button type="button" class="btn btn-light width-80" onclick="location.href='intro.html'">view more</button>
+      </div>
+    </div>
+
+    <!--部員紹介以降のコンポーネント-->
+    <div class="background">
+      <div class="row width-80 item-margin page-down">
+        <!--お知らせ-->
+        <div class="col-6">
+          <div class="font-large bold item-center padding-top padding-bottom title_jp">お知らせ</div>
+          <!--各内容のコンポーネント-->
+          <!--<div class="row padding-bottom">
+            <div class="col-3">
+              <img src="img/top-page/info.jpg" class="left-img">
+            </div>
+            <div class="col-9 intro_schedule padding-top padding-bottom">
+              <div class="font-normal">2024.1.1</div>
+              <div class="font-normal">新年あけましておめでとうございます！</div>
+            </div>
+          </div>
+          <div class="row padding-bottom">
+            <div class="col-3">
+              <img src="img/top-page/info.jpg" class="left-img">
+            </div>
+            <div class="col-9 intro_schedule padding-top padding-bottom">
+              <div class="font-normal">2023.11.23</div>
+              <div class="font-normal">一橋大学と対抗戦を行いました！</div>
+            </div>
+          </div>
+          <div class="row padding-bottom">
+            <div class="col-3">
+              <img src="img/top-page/info.jpg" class="left-img">
+            </div>
+            <div class="col-9 intro_schedule padding-top padding-bottom">
+              <div class="font-normal">2023.10.22</div>
+              <div class="font-normal">イベントを行いました！！</div>
+            </div>
+          </div>-->
+          <div class="area-qa">
+            Coming Soon.....
+          </div>
+          <div class="padding-bottom"></div>
+          <!--最下部のボタン-->
+          <div class="page-down" style="text-align: right;">
+            <button type="button" class="btn btn-light" onclick="location.href='#'">view more</button>
+          </div>
+        </div>
+
+
+        <!--Q&A-->
+        <div class="col-6">
+          <div class="font-large bold item-center padding-top padding-bottom title">Q&A</div>
+          <!--各内容のコンポーネント-->
+          <div class="area-qa">
+            <div class="row">
+              <div class="col-2">Q1</div>
+              <div class="col-10">練習時間はどれくらいですか？</div>
+            </div>
+            <div class="row">
+              <div class="col-2">Q2</div>
+              <div class="col-10">勉強やバイトと両立できますか？</div>
+            </div>
+            <div class="row">
+              <div class="col-2">Q3</div>
+              <div class="col-10">部費などはいくらくらいかかりますか？</div>
+            </div>
+            <div class="row">
+              <div class="col-2">Q4</div>
+              <div class="col-10">サークルなどと掛け持ちできますか？</div>
+            </div>
+            <div class="row">
+              <div class="col-2">Q5</div>
+              <div class="col-10">就職状況はどんな感じですか？</div>
+            </div>
+          </div>
+          <div class="padding-bottom"></div>
+          <!--最下部のボタン-->
+          <div class="page-down" style="text-align: right;">
+            <button type="button" class="btn btn-light" onclick="location.href='qa.html'">view more</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- フッター開始 -->
+    <footer class="footer">
+      <!-- フッターリンク -->
+      <div><a href="index.html" style="color: #fff; cursor:pointer">ホーム</a></div>
+      <div><a href="intro.html" style="color:#fff; cursor:pointer">部員紹介</a></div>
+      <div><a href="#" style="color: #fff; cursor:pointer">お知らせ</a></div>
+      <div><a href="access.html" style="color: #fff; cursor:pointer">お問い合わせ</a></div>
+      <!-- 著作権情報 -->
+      <p>&copy; 千葉大学硬式庭球部</p>
+    </footer>
+    <!-- フッター終了 -->
+  </div>
+  <!--mobile版のコード-->
+  <div class="mobile-ver">
+    <!--画面の中身を作成-->
+    <!--トップ画像の挿入-->
+    <div class="width-100">
+      <img src="img/top-page/top.jpg" class="top-img">
+    </div>
+    <!--部員紹介の前までのコンテンツ-->
+    <div class="background">
+      <div class="width-90 item-margin">
+        <div class="padding-top padding-bottom">
+          <div class="font-large title" style="font-weight: bold; padding-bottom:0.5em">About us</div>
+          <div class="font-normal padding-bottom">
+            こんにちは。千葉大学硬式庭球部です！
+            普段私たちは関東学生テニスリーグ4部昇格、千葉県リーグ優勝を目指して練習に取り組んでいます。
+            きつい練習も仲の良い同期とともに乗り越え、日々成長をしています！勉学や部活と忙しい毎日を送っていますが、
+            毎日が充実しています。興味があればぜひテニス部に足を運んでください！！
+          </div>
+          <!--ボタン挿入-->
+          <button type="button" class="btn btn-light all-img">view more</button>
+          <div class="padding-bottom"></div>
+          <!--部員の日常・スケジュール-->
+          <div class="padding-top padding-bottom">
+            <a href="daialy.html" style="cursor: pointer;">
+            <img src="img/top-page/introduce_schedule.jpg" class="all-img">
+            <div class="intro_schedule item-margin">
+              <div class="area-padding">
+                <div class="area-title title_jp" style="color: black;">部員の日常・スケジュール</div>
+                <div class="area-text" style="color: #d3d3d3;">ここでは、部員の普段の活動内容に関して発信していきます！</div>
+              </div>
+            </div>
+            </a>
+          </div>
+          <!--お知らせ項目-->
+          <div class="padding-bottom">
+            <a href="info.html" style="cursor: pointer;">
+            <img src="img/top-page/infom.jpg" class="all-img">
+            <div class="intro_schedule">
+              <div class="area-padding">
+                <div class="area-title title_jp" style="color:black">お問い合わせ</div>
+                <div class="area-text" style="color: #d3d3d3;">試合の申し込み、練習の参加、見学などはこちらからご連絡ください</div>
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--部員紹介のコンテンツ-->
+    <div class="intro_back">
+      <div class="font-large bold padding-top padding-bottom item-center intro_text title_jp">部員紹介</div>
+      <ul class="slider">
+        <li><img src="img/members-imges/中村.jpg" alt=""></li>
+        <li><img src="img/members-imges/今井.jpg" alt=""></li>
+        <li><img src="img/members-imges/原.jpg" alt=""></li>
+        <li><img src="img/members-imges/古川万智.jpg" alt=""></li>
+        <li><img src="img/members-imges/和光.jpg" alt=""></li>
+        <li><img src="img/members-imges/坂井真凜.jpg" alt=""></li>
+        <li><img src="img/members-imges/堀.jpg" alt=""></li>
+        <li><img src="img/members-imges/嶋田彩夏.jpg" alt=""></li>
+        <li><img src="img/members-imges/幕内.jpg" alt=""></li>
+        <li><img src="img/members-imges/津田.jpg" alt=""></li>
+        <li><img src="img/members-imges/廣瀬.jpg" alt=""></li>
+        <li><img src="img/members-imges/渡邉晴海.jpg" alt=""></li>
+        <li><img src="img/members-imges/猿渡.jpg" alt=""></li>
+        <li><img src="img/members-imges/福垣内.jpg" alt=""></li>
+        <li><img src="img/members-imges/脇坂.jpg" alt=""></li>
+        <li><img src="img/members-imges/菅谷.jpg" alt=""></li>
+        <li><img src="img/members-imges/関根.jpg" alt=""></li>
+      </ul>
+      <div class="padding-top padding-bottom item-center">
+        <button type="button" class="btn btn-light width-90" onclick="location.href='intro.html'">view more</button>
+      </div>
+    </div>
+    <!--部員紹介以降のコンポーネント-->
+    <div class="background">
+      <div class="item-margin page-down">
+        <!--お知らせ-->
+        <div class="width-90 item-margin">
+          <div class="font-large bold item-center padding-top padding-bottom title_jp">お知らせ</div>
+          <!--各内容のコンポーネント-->
+          <div class="row padding-bottom item-margin">
+            <div class="col-3">
+              <img src="img/top-page/sample.jpg" class="left-img">
+            </div>
+            <div class="col-9 intro_schedule padding-top padding-bottom">
+              <div class="font-normal">2024.1.1</div>
+              <div class="font-normal">新年あけましておめでとうございます！</div>
+            </div>
+          </div>
+          <div class="row padding-bottom item-margin">
+            <div class="col-3">
+              <img src="img/top-page/sample.jpg" class="left-img">
+            </div>
+            <div class="col-9 intro_schedule padding-top padding-bottom">
+              <div class="font-normal">2023.11.23</div>
+              <div class="font-normal">一橋大学と対抗戦を行いました！</div>
+            </div>
+          </div>
+          <div class="row padding-bottom item-margin">
+            <div class="col-3">
+              <img src="img/top-page/sample.jpg" class="left-img">
+            </div>
+            <div class="col-9 intro_schedule padding-top padding-bottom">
+              <div class="font-normal">2023.10.22</div>
+              <div class="font-normal">イベントを行いました！！</div>
+            </div>
+          </div>
+          <!--最下部のボタン-->
+          <button type="button" class="btn btn-light all-img" onclick="location.href='info.html'">view more</button>
+        </div>
+
+
+        <!--Q&A-->
+        <div class="width-90 item-margin">
+          <div class="font-large bold item-center padding-top padding-bottom title">Q&A</div>
+          <!--各内容のコンポーネント-->
+          <div class="area-qa">
+            <div class="row">
+              <div class="col-2">Q1</div>
+              <div class="col-10">練習の頻度はどのくらいですか？</div>
+            </div>
+            <div class="row">
+              <div class="col-2">Q2</div>
+              <div class="col-10">部活と勉強の両立は可能ですか？</div>
+            </div>
+            <div class="row">
+              <div class="col-2">Q3</div>
+              <div class="col-10">試合はどのくらいの頻度で行っていますか？</div>
+            </div>
+          </div>
+          <div class="padding-bottom"></div>
+          <!--最下部のボタン-->
+          <button type="button" class="btn btn-light all-img" onclick="location.href='qa.html'">view more</button>
+        </div>
+
+
+        <!--アクセス-->
+        <div class="item-margin width-90">
+          <div class="item-center font-large title_jp"
+            style="font-weight: bold; padding-bottom:0.5em; padding-top:0.5em">アクセス
+          </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.832756569766!2d140.10119947578562!3d35.63184927260319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60228482298d0929%3A0xd19200becfde63f0!2z5Y2D6JGJ5aSn5a2m44OG44OL44K544Kz44O844OI!5e0!3m2!1sja!2sjp!4v1703310168535!5m2!1sja!2sjp"
+              style="border: 0; width: 100%; height:100%;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="padding-top padding-bottom"></div>
+          <div class="padding-top padding-bottom">
+            <div class="font-nomal bold title_jp">住所</div>
+            <div class="font-normal"> &#12306;263-0022</div>
+            <div class="font-normal">千葉県千葉市稲毛区穴川１丁目４−２１</div>
+            <div class="padding-top font-nomal bold title_jp">面数</div>
+            <div class="font-normal">オムニコート6面</div>
+            <div class="bold padding-top title_jp">所要時間</div>
+            <div class="font-normal">千葉大学南門から徒歩15分程度</div>
+          </div>
+          <!--下スペース用のタグ-->
+          <div class="padding-bottom"></div>
+        </div>
+
+      </div>
+    </div>
+    <!-- フッター開始 -->
+    <footer class="footer">
+      <!-- フッターリンク -->
+      <div><a href="index.html" style="color: #fff;cursor:pointer;">ホーム</a></div>
+      <div><a href="intro.html" style="color: #fff; cursor:pointer">部員紹介</a></div>
+      <div><a href="#" style="color: #fff; cursor:pointer">お知らせ</a></div>
+      <div><a href="access.html" style="color: #fff; cursor:pointer">お問い合わせ</a></div>
+
+      <!-- 著作権情報 -->
+      <p>&copy; 千葉大学硬式庭球部</p>
+    </footer>
+    <!-- フッター終了 -->
+  </div>
+  <script src="js/jQuery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

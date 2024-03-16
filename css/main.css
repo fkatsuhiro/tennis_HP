@@ -1,0 +1,481 @@
+/*ページ全体の背景の色*/
+.background {
+    background-color: #e6e6e6;
+}
+
+.title{
+    font-family: "Century Gothic", sans-serif;
+}
+
+.title_jp{
+    font-family: "Yu Gothic";
+}
+
+/*ナビゲーションの下の水平線*/
+.hline {
+    border-bottom: 2px gray;
+}
+
+/*千葉大学硬式庭球部の文字デザイン*/
+.logo-font {
+    font-family: cursive, serif, sans-serif;
+    font-size: 1.5em;
+}
+
+/*文字サイズ指定*/
+
+.font-nomal {
+    font-size: 1em;
+}
+
+.font-large {
+    font-size: 1.5em;
+}
+
+/*ヘッダー用スペース*/
+.header-space {
+    padding-top: 100px;
+}
+
+/*トップ画像*/
+.top-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+/*太字用css*/
+.bold {
+    font-weight: bold;
+}
+
+/*挿入画像用のサイズ制限*/
+.all-img {
+    width: 100%;
+}
+
+/*画面幅指定用css*/
+.width-100 {
+    width: 100%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-aboutus {
+    width: 80%;
+}
+
+.item-margin {
+    margin: 0 auto;
+}
+
+.padding-bottom {
+    padding-bottom: 1em;
+}
+
+.padding-top {
+    padding-top: 1em;
+}
+
+.item-center {
+    text-align: center;
+}
+
+/*ページ最下部*/
+.page-down {
+    padding-bottom: 5em;
+}
+
+/*フッターデザイン*/
+.footer {
+    background-color: #888888;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*-------------------------topページ用css----------------------------------*/
+
+/*google map 用デザイン*/
+.map {
+    width: 100%;
+    height: 300px;
+    background-color: #888888;
+    z-index: 1;
+}
+
+/*部員紹介・スケジュール、お知らせの領域*/
+.intro_schedule {
+    background-color: #fff;
+}
+
+.area-padding {
+    padding: 1em;
+    height: 150px;
+}
+
+.area-title {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.area-text {
+    color: #d3d3d3;
+    font-weight: 1em;
+}
+
+/*部員紹介用css*/
+/*テキストカラー*/
+.intro_text {
+    color: #fff;
+}
+
+.intro_back {
+    background-color: #696969;
+}
+
+/*各スライド写真のコンテンツのサイズ指定*/
+
+
+/*スライダー用のcss*/
+
+.slider {
+    /*横幅94%で左右に余白を持たせて中央寄せ*/
+    width: 94%;
+    margin: 0 auto;
+}
+
+.slider img {
+    /*width: 30vw;/*スライダー内の画像サイズの決定*/
+    height: 350px;
+    object-fit: cover;
+}
+
+.slider .slick-slide {
+    transform: scale(0.8);
+    /*左右の画像のサイズを80%に*/
+    transition: all .5s;
+    /*拡大や透過のアニメーションを0.5秒で行う*/
+    opacity: 0.5;
+    /*透過50%*/
+}
+
+.slider .slick-slide.slick-center {
+    transform: scale(1);
+    /*中央の画像のサイズだけ等倍に*/
+    opacity: 1;
+    /*透過なし*/
+}
+
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slick-prev,
+.slick-next {
+    position: absolute;
+    /*絶対配置にする*/
+    top: 42%;
+    cursor: pointer;
+    /*マウスカーソルを指マークに*/
+    outline: none;
+    /*クリックをしたら出てくる枠線を消す*/
+    border-top: 2px solid #fff;
+    /*矢印の色*/
+    border-right: 2px solid #fff;
+    /*矢印の色*/
+    height: 15px;
+    width: 15px;
+}
+
+.slick-prev {
+    /*戻る矢印の位置と形状*/
+    left: -1.5%;
+    transform: rotate(-135deg);
+}
+
+.slick-next {
+    /*次へ矢印の位置と形状*/
+    right: -1.5%;
+    transform: rotate(45deg);
+}
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.slick-dots li {
+    display: none;
+    /*display:inline-block;*/
+    margin: 0 5px;
+}
+
+.slick-dots button {
+    display: none;
+    color: transparent;
+    outline: none;
+    width: 8px;
+    /*ドットボタンのサイズ*/
+    height: 8px;
+    /*ドットボタンのサイズ*/
+    display: block;
+    border-radius: 50%;
+    background: #888888;
+    /*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button {
+    display: none;
+    background: #888888;
+    /*ドットボタンの現在地表示の色*/
+}
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+body {
+    background: #eee;
+}
+
+h2,
+p {
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #333;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+/*information*/
+.left-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*画面下部のQ&Aの空欄*/
+
+.area-qa {
+    padding: 1em;
+    height: 17em;
+    background-color: #fff;
+}
+
+/*Aboutus ページ用css*/
+
+.text-left {
+    margin-left: 2em;
+}
+
+/*お問い合わせページ*/
+
+.top-apace {
+    padding-top: 20px;
+}
+
+/*お知らせ文字用css*/
+.access-text {
+    padding-top: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.width-access {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*snsアイコン用css*/
+/* ボタン全体 */
+.flowbtn7 {
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: #fff !important;
+    text-decoration: none;
+    transition: .5s;
+}
+
+/* アイコンをど真ん中に*/
+.flowbtn7 i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* ulタグの内側余白を０にする */
+ul.snsbtniti {
+    padding: 0 !important;
+}
+
+/* ボタン全体の位置 */
+.snsbtniti {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+/* ボタン同士の余白 */
+.snsbtniti li {
+    flex: 0 0 33%;
+    text-align: center !important;
+}
+
+/* ボタンにマウスを乗せた時 */
+.flowbtn7:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+/* Twitter */
+.fl_tw7 {
+    background: linear-gradient(135deg, #13f1fc 0%, #0470dc 100%);
+}
+
+/* Instagramアイコン位置 */
+.insta_btn7 .fa-instagram {
+    font-size: 35px;
+}
+
+/* Instagram紫グラデ背景 */
+.insta_btn7 {
+    background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    overflow: hidden;
+}
+
+/* Instagramオレンジグラデ背景 */
+.insta_btn7:before {
+    content: '';
+    position: absolute;
+    top: 27px;
+    left: -12px;
+    width: 59px;
+    height: 40px;
+    background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+    background: radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+}
+
+/*snsアイコン*/
+
+@media screen and (max-width:1100px) {
+    .area-qa {
+        padding: 1em;
+        height: 19em;
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width:915px) {
+    .area-qa {
+        padding: 1em;
+        height: 20em;
+        background-color: #fff;
+    }
+}
+
+.mobile-ver {
+    display: none;
+}
+
+.pc-ver {
+    display: block;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.pc-nav {
+    display: block;
+}
+
+@media screen and (max-width:1025px) {
+    .mobile-nav {
+        display: block;
+    }
+
+    .pc-nav {
+        display: none;
+    }
+}
+
+/*-----------スマホ画面の時のcssデザイン----------*/
+@media screen and (max-width:768px) {
+    .mobile-ver {
+        display: block;
+    }
+
+    .pc-ver {
+        display: none;
+    }
+
+    .logo-font {
+        font-size: 1em;
+    }
+
+    .header-space {
+        padding-top: 50px;
+    }
+
+    .width-90 {
+        width: 90%;
+    }
+
+    .width-aboutus {
+        width: 90%;
+    }
+
+    .intro_schedule {
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .area-padding {
+        padding: 1em;
+        height: 100px;
+    }
+
+    .area-title {
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .area-qa {
+        padding: 1em;
+        height: auto;
+        background-color: #fff;
+    }
+
+    .width-access {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
