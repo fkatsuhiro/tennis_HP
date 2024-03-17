@@ -87,6 +87,10 @@
         <div class="width-access header-space">
             <div class="access-text title_jp">お問い合わせ</div>
             <!--基本情報入力欄-->
+            <div class="alert alert-danger" role="alert">
+                現在こちらのフォームを停止させていただいております。テニス部へのお問い合わせはSNSからお願いいたします。   
+            </div>
+            <div style="padding-bottom: 1em;"></div>
             <form>
                 <div class="form-group row">
                     <label for="exampleFormControlSelect1" class="col-md-4 padding-bottom">所属を選択してください</label>
@@ -109,20 +113,28 @@
                     <label for="exampleFormControlTextarea1" style="padding-bottom: .5em;">メッセージ</label>
                     <textarea class="form-control" id="message" rows="5"></textarea>
                 </div>
+                <div style="margin:0 auto;">
+                    <button type="button" class="btn btn-light" style="width: 100%; font-weight:bold">Submit</button>
+                </div>
             </form>
+            <div style="padding-bottom: 2em;"></div>
             <!--SNSの案内コメント-->
             <div style="text-align: center; font-size:1.5rem; font-weight:bold" class="title_jp">SNS各種</div>
             <ul class="snsbtniti">
                 <li>
-                    <a href="https://twitter.com/chibaunivtennis" class="flowbtn7 fl_tw7"><i
-                            class="fab fa-twitter"></i></a>
+                    <a href="https://twitter.com/chibaunivtennis" class="flowbtn7 fl_tw7">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <div style="font-weight: bold; text-align:center">X</div>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/chibaunivtennis" class="flowbtn7 insta_btn7"><i
-                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/chibaunivtennis" class="flowbtn7 insta_btn7">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div style="font-weight: bold; text-align:center">Instagram</div>
                 </li>
             </ul>
-            <div style="padding-bottom: 15px;"></div>
+            <div class="page-down"></div>
         </div>
         <!-- フッター開始 -->
         <footer class="footer">
