@@ -568,4 +568,19 @@ ul.snsbtniti {
         width: 80%;
         margin: 0 auto;
     }
+
+    /*お知らせ画面のfield css*/
+    .info-detail-area {
+        background-color: white;
+        border-radius: 15px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .width-60 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /*---*/
 }
