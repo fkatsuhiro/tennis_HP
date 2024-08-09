@@ -13,41 +13,87 @@
 
 <body>
 
-  <!-- ヘッダーのコード -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light hline">
-    <div class="container" style="position: sticky;">
+  <!--pc版のヘッダー-->
+  <div class="pc-nav">
+    <!-- ヘッダーのコード -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light hline width-100" style="position: fixed; z-index:100;">
+      <div class="container">
 
-      <!-- ロゴ -->
-      <a class="navbar-brand" href="#">
-        <img src="img/top-page/logo.png" alt="Your Logo" width="100" height="50">
-      </a>
+        <!-- ロゴ -->
+        <a class="navbar-brand" href="index.html">
+          <img src="img/top-page/logo.png" alt="Your Logo" width="100" height="50">
+        </a>
 
-      <!-- ロゴ横のテキスト -->
-      <span class="logo-font">
-        千葉大学硬式庭球部
-      </span>
+        <!-- ロゴ横のテキスト -->
+        <span class="logo-font">
+          千葉大学硬式庭球部
+        </span>
 
-      <!-- 右側のリンク -->
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">ホーム</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">部員紹介</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">お知らせ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">お問い合わせ</a>
-          </li>
-        </ul>
+        <!-- 右側のリンク -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">ホーム</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="intro.html">部員紹介</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="info.html">お知らせ</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="access.html">お問い合わせ</a>
+            </li>
+          </ul>
+        </div>
+
       </div>
+    </nav>
+    <!-- ヘッダー終わり -->
 
-    </div>
-  </nav>
-  <!-- ヘッダー終わり -->
+  </div>
+
+
+
+  <!--mobile版のヘッダーコード-->
+  <div class="mobile-nav">
+    <!-- ヘッダーのコード -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light hline width-100" style="position: fixed; z-index:100;">
+      <div class="container">
+
+        <!-- ロゴ -->
+        <a class="navbar-brand" href="index.html">
+          <img src="img/top-page/logo.png" alt="Your Logo" width="60" height="30">
+        </a>
+
+        <!-- ロゴ横のテキスト -->
+        <span class="logo-font">
+          千葉大学硬式庭球部
+        </span>
+
+        <!-- 右側のリンク -->
+        <div class="" id="navbarNav">
+          <ul class="nav nav-tabs">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">menu</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="index.html">ホーム</a>
+                <a class="dropdown-item" href="intro.html">部員紹介</a>
+                <a class="dropdown-item" href="info.html">お知らせ</a>
+                <a class="dropdown-item" href="access.html">お問い合わせ</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <!-- ヘッダー終わり -->
+
+  </div>
 
   <!-- 2023関東リーグ結果 -->
   <div class="content-box">
@@ -61,7 +107,7 @@
       男子部の新歓PVはこちら↓<br>
       <a href="https://youtu.be/kRzH3ZPX6-A?si=n6vgS3TMhk2cMs4e">https://youtu.be/kRzH3ZPX6-A?si=n6vgS3TMhk2cMs4e</a><br><br>
       女子部の新歓PVはこちら↓<br>
-      <a href=https://youtu.be/iYHKsThIohc?si=psCYd8CeAZWvYzaL>https://youtu.be/iYHKsThIohc?si=psCYd8CeAZWvYzaL</a><br>
+      <a href="https://youtu.be/iYHKsThIohc?si=psCYd8CeAZWvYzaL">https://youtu.be/iYHKsThIohc?si=psCYd8CeAZWvYzaL</a><br>
       <br>
       質問や体験希望はX、instagramからお気軽にご連絡ください！<br>
       <a href="https://chiba-univ-tennis.com/access.html">お問い合わせはこちら</a>
@@ -75,16 +121,17 @@
   <!-- フッター開始 -->
   <footer class="footer">
     <!-- フッターリンク -->
-    <div href="#">ホーム</div>
-    <div href="#">部員紹介</div>
-    <div href="#">お知らせ</div>
-    <div href="#">お問い合わせ</div>
+    <div><a href="index.html" style="color: #fff;cursor:pointer;">ホーム</a></div>
+    <div><a href="intro.html" style="color: #fff; cursor:pointer">部員紹介</a></div>
+    <!--
+    <div><a href="#" style="color: #fff; cursor:pointer">お知らせ</a></div>
+    -->
+    <div><a href="access.html" style="color: #fff; cursor:pointer">お問い合わせ</a></div>
 
     <!-- 著作権情報 -->
     <p>&copy; 千葉大学硬式庭球部</p>
   </footer>
   <!-- フッター終了 -->
-
   <script src="js/jQuery.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.js"></script>

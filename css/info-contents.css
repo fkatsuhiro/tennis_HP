@@ -1,17 +1,19 @@
 /* 記事共通の余白設定 */
-.content-box{
+/*.content-box{
     margin: 2em;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 10%;
-}
+}*/
 
 /* 2023年関東テニスリーグ男子の結果 */
-.picture{
+/*.picture{
     width: 75%;
     height: auto;
     margin-bottom: 10%;
 }
 .picture-box{
     text-align: center;
-}
+}*/
+
+/*画面の全体幅に関してのCSS*/
